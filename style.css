@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Peralta&family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://img.freepik.com/fotos-premium/fondo-humo-color_71163-196.jpg)
+    no-repeat center center/cover;
+  font-family: "Peralta", cursive;
+  height: 100vh;
+}
+
+.container{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login{
+  display: grid;
+  grid-template-columns: 1;
+}
+
+input{
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  border-radius: 5px;
+  font-family: "Peralta", cursive;
+
+}
+
+.login button{
+  text-align: center;
+  margin: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  outline: none;
+  border:none;
+  color: crimson;
+  font-family: "Peralta", cursive;
+
+}
+
+.page {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.title {
+  margin: 50px 10px;
+  font-family: "Peralta", cursive;
+}
+
+.title h1 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin: 10px;
+  text-align: center;
+
+  animation: 2s title 0.5s ease-in-out;
+}
+
+@keyframes title {
+  0% {
+    transform: translateY(-200px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.horario {
+  display: flex;
+  margin: 50px 10px;
+  color: #fff;
+  justify-content: space-around;
+}
+
+.fecha {
+  animation: 2s fecha 0.5s ease-in-out;
+}
+
+@keyframes fecha {
+  0% {
+    transform: translateX(-200px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.fecha h2,
+.hora h2,
+.lugar h2 {
+  margin: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.fecha p,
+.hora p,
+.lugar p {
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.hora {
+  animation: 2s hora 0.5s ease-in-out;
+}
+
+@keyframes hora {
+  0% {
+    transform: translateX(200px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.lugar{
+  animation: 2s lugar 0.5s ease-in-out;
+
+}
+
+@keyframes lugar {
+  0% {
+    transform: translateX(300px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.reglas {
+  margin: 50px 20px;
+  color: #fff;
+}
+.reglas h1 {
+  text-align: center;
+  margin: 20px 0;
+  animation: 2s regla-titulo 0.5s ease-in-out;
+
+}
+
+@keyframes regla-titulo {
+  0% {
+    transform: translateY(400px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.reglas ul li {
+  margin: 15px 0;
+  font-size: 20px;
+  list-style: none;
+}
+
+li:nth-child(1){
+  transform: translateY(300px);
+
+      animation-name: footer-child;
+      animation-duration: 0.5s;
+      animation-delay: 3s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+}
+
+li:nth-child(2){
+  transform: translateY(300px);
+
+      animation-name: footer-child;
+      animation-duration: 0.5s;
+      animation-delay: 3.5s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+}
+
+li:nth-child(3){
+  transform: translateY(300px);
+
+      animation-name: footer-child;
+      animation-duration: 0.5s;
+      animation-delay: 4s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+}
+
+@keyframes footer-child {
+  0% {
+    transform: translateY(300px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
