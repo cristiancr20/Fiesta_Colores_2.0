@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Peralta&family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://img.freepik.com/fotos-premium/fondo-humo-color_71163-196.jpg)
+    no-repeat center center/cover;
+  font-family: "Peralta", cursive;
+  padding: 10px;
+  height: 100vh;
+}
+
+
+.container{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.login{
+  display: grid;
+  grid-template-columns: 1;
+}
+
+input{
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  border-radius: 5px;
+  font-family: "Peralta", cursive;
+
+}
+
+.login button{
+  text-align: center;
+  margin: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  outline: none;
+  border:none;
+  color: crimson;
+  font-family: "Peralta", cursive;
+  cursor: pointer;
+}
