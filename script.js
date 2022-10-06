@@ -64,6 +64,12 @@ function login(){
   else if(usuario == "Auria"){
     window.location="home.html";
   }
+  else if(usuario == "Genesis"){
+    window.location="home.html";
+  }
+  else if(usuario == "Yurent"){
+    window.location="home.html";
+  }
   else{
     alert("Lo siento, usuario no encontrado");
   }

@@ -44,7 +44,7 @@ input{
   border:none;
   color: crimson;
   font-family: "Peralta", cursive;
-
+  cursor: pointer;
 }
 
 .page {
