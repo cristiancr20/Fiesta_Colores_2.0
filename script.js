@@ -1,5 +1,5 @@
 function login(){
-  var usuario=document.getElementById("usuario").value;
+  let usuario=document.getElementById("usuario").value;
   
   if(usuario == "Cristian"){
     window.location="home.html";
