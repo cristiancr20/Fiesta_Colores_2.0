@@ -10,7 +10,7 @@ body {
   background: url(https://img.freepik.com/fotos-premium/fondo-humo-color_71163-196.jpg)
     no-repeat center center/cover;
   font-family: "Peralta", cursive;
-  height: 100vh;
+  padding: 10px;
 }
 
 .container{
@@ -45,12 +45,6 @@ input{
   color: crimson;
   font-family: "Peralta", cursive;
   cursor: pointer;
-}
-
-.page {
-  height: 100%;
-  position: relative;
-  width: 100%;
 }
 
 .title {
@@ -153,6 +147,9 @@ input{
   margin: 20px 0;
   animation: 2s regla-titulo 0.5s ease-in-out;
 
+}
+.reglas ul{
+  margin-bottom: 20px;
 }
 
 @keyframes regla-titulo {
