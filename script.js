@@ -70,6 +70,9 @@ function login(){
   else if(usuario == "Yurent"){
     window.location="home.html";
   }
+  else if(usuario == "Paulina"){
+    window.location="home.html";
+  }
   else{
     alert("Lo siento, usuario no encontrado");
   }
