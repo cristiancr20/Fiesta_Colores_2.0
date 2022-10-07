@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Peralta&family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://img.freepik.com/fotos-premium/fondo-humo-color_71163-196.jpg)
+    no-repeat center center/cover;
+  font-family: "Peralta", cursive;
+  height: 100vh;
+}
+
+.reglas {
+  margin: 50px 20px;
+  color: #fff;
+}
+.reglas h1 {
+  text-align: center;
+  margin: 20px 0;
+  animation: 2s regla-titulo 0.5s ease-in-out;
+
+}
+.reglas ul{
+  margin-bottom: 20px;
+}
+
+@keyframes regla-titulo {
+  0% {
+    transform: translateY(-1000px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.reglas ul li {
+  margin: 15px 0;
+  font-size: 20px;
+  list-style: none;
+}
+
+li:nth-child(1){
+  transform: translateY(1000px);
+
+      animation-name: footer-child;
+      animation-duration: 0.5s;
+      animation-delay: 1s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+}
+
+li:nth-child(2){
+  transform: translateY(1000px);
+
+      animation-name: footer-child;
+      animation-duration: 0.5s;
+      animation-delay: 1.5s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+}
+
+li:nth-child(3){
+  transform: translateY(1000px);
+
+      animation-name: footer-child;
+      animation-duration: 0.5s;
+      animation-delay: 2s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+}
+
+@keyframes footer-child {
+  0% {
+    transform: translateY(100px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.imagen{
+  width: 100%;
+  margin: 20px auto;
+
+  animation: 2s imagen 0.5s ease-in-out;
+
+}
+img{
+  width: 100%;
+}
+
+@keyframes imagen{
+  0% {
+    transform: translateY(500px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
