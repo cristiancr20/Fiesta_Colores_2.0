@@ -7,18 +7,54 @@
 }
 
 body {
-  background: url(https://img.freepik.com/fotos-premium/fondo-humo-color_71163-196.jpg)
-    no-repeat center center/cover;
   font-family: "Peralta", cursive;
+  background: url(https://img.freepik.com/fotos-premium/fondo-humo-color_71163-196.jpg)
+  no-repeat center center/cover;
+}
+
+.login{
   height: 100vh;
+  text-align: center;
+}
+
+.log{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input{
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  border-radius: 5px;
+  font-family: "Peralta", cursive;
+
+}
+
+.login button{
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  outline: none;
+  border:none;
+  color: crimson;
+  font-family: "Peralta", cursive;
+  cursor: pointer;
 }
 
 
+
+/* page invitation */
 .title h1 {
   display: flex;
   justify-content: center;
   color: #fff;
-  margin: 50px 10px;
+  padding: 50px 10px;
   text-align: center;
 
   animation: 2s title 0.5s ease-in-out;
@@ -41,11 +77,14 @@ body {
   justify-content: space-around;
 }
 
-.fecha {
-  animation: 2s fecha 0.5s ease-in-out;
+
+
+.fecha,
+.nombre {
+  animation: 2s fecha-nombre 0.5s ease-in-out;
 }
 
-@keyframes fecha {
+@keyframes fecha-nombre {
   0% {
     transform: translateX(-500px);
   }
@@ -55,6 +94,7 @@ body {
   }
 }
 
+.nombre h2,
 .fecha h2,
 .hora h2,
 .lugar h2 {
@@ -63,6 +103,7 @@ body {
   color: #fff;
 }
 
+.nombre p,
 .fecha p,
 .hora p,
 .lugar p {
@@ -100,30 +141,99 @@ body {
   }
 }
 
-button{
-  display: flex;
-  margin: 20px auto;
-  cursor: pointer;
-  border: 1px solid black;
-  border-radius: 10px;
-  outline: none;
-  padding: 10px;
-  background: #222;
-  animation: 2s button 0.5s ease-in-out;
+
+
+/* reglas */
+
+
+.reglas {
+  margin: 50px 20px;
+  color: #fff;
+}
+.reglas h1 {
+  text-align: center;
+  margin: 20px 0;
+  animation: 2s regla-titulo 0.5s ease-in-out;
+
+}
+.reglas ul{
+  margin-bottom: 20px;
 }
 
-a{
-  text-decoration: none;
-  color :#fff;
-  font-size: 30px;
-}
-
-@keyframes button {
+@keyframes regla-titulo {
   0% {
-    transform: translateY(300px);
+    transform: translateY(-1000px);
   }
 
   100% {
     transform: translateY(0px);
   }
 }
+
+.reglas ul li {
+  margin: 15px 0;
+  font-size: 20px;
+  list-style: none;
+}
+
+li:nth-child(1){
+  transform: translateY(1000px);
+
+      animation-name: footer-child;
+      animation-duration: 0.5s;
+      animation-delay: 1s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+}
+
+li:nth-child(2){
+  transform: translateY(1000px);
+
+      animation-name: footer-child;
+      animation-duration: 0.5s;
+      animation-delay: 1.5s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+}
+
+li:nth-child(3){
+  transform: translateY(1000px);
+
+      animation-name: footer-child;
+      animation-duration: 0.5s;
+      animation-delay: 2s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+}
+
+@keyframes footer-child {
+  0% {
+    transform: translateY(100px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.imagen{
+  width: 100%;
+  margin: 20px auto;
+
+  animation: 2s imagen 0.5s ease-in-out;
+
+}
+img{
+  width: 100%;
+}
+
+@keyframes imagen{
+  0% {
+    transform: translateY(500px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+

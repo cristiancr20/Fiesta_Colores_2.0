@@ -1,22 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 
   <title>Fiesta Colores 2.0</title>
 
 </head>
+
 <body>
   <div class="container">
-    <div class="login">
-      <input type="text" name="usario" id="usuario" placeholder="Ingresa tu nombre">
-      <button onclick="login()">Entrar </button>
+    <div class="login" id="login">
+      <div class="log">
+
+        <input type="text" name="usario" id="usuario" placeholder="Ingresa tu nombre">
+        <button onclick="login()">Entrar </button>
+      </div>
     </div>
+
+    <div class="page" id="page" style="display: none;">
+      <div class="title">
+        <h1>Ven y disfruta de la mejor fiesta de colores 🎉</h1>
+      </div>
+
+      <div class="nombre">
+        <h2>Bienvenid@</h2>
+        <p id="nombre"></p>
+      </div>
+
+      <div class="horario">
+        <div class="fecha">
+          <h2>Fecha 📅</h2>
+          <p>22 de Octubre</p>
+        </div>
+
+        <div class="hora">
+          <h2>Hora 🕛</h2>
+          <p>21:00 pm</p>
+        </div>
+      </div>
+
+      <div class="lugar">
+        <h2>Lugar 🏠</h2>
+        <p>Casa de Alexis 🥳🤙</p>
+      </div>
+
+      <div class="reglas" >
+        <h1>Reglas 📝</h1>
+        <ul>
+          <li>Pareja: <p id="pareja"></p> </li>
+          <li>Color: <p id="color"></p></li>
+          <li>Base dinero por persona 5$</li>
+          <li>LLevar bebida o snacks dependiendo de como se divida la pareja.</li>
+          <li>LLevar por lo menos una prenda de ropa del color que tienes designado.</li>
+        </ul>
+      </div>
   </div>
+    
+  <script>
+    
+  </script>
 </body>
+
 </html>

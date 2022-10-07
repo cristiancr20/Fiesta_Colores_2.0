@@ -1,79 +1,248 @@
-function login(){
-  let usuario=document.getElementById("usuario").value;
+function login() {
+
+  let usuario = document.getElementById("usuario").value;
+
+  if (usuario == "Cristian" || usuario == "Sttefany") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = "Sttefany y Cristian";
+  }
+
+  else if (usuario == "Auria" || usuario == "Ulbio") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = "Auria y Ulbio";
+  }
+
+  else if (usuario == "Alejandra" || usuario == "Marlon") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = "Alejandra y Marlon";
+  }
+
+  else if (usuario == "Erika" || usuario == "Alexis") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = "Erika y Alexis"
+  }
+
+  else if (usuario == "Paulina" || usuario == "Jorge") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = "Paulina y Jorge"
+  }
+
+  else if (usuario == "Lisbeth") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
+
+  else if (usuario == "Alex") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
+
+  else if (usuario == "Erick") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
+
+  else if (usuario == "Luis") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
+
+  else if (usuario == "Anthony") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
+
+  else if (usuario == "Aracely") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
+
+  else if (usuario == "José") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
+
+  else if (usuario == "Jhon") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
+  else if (usuario == "Marco") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
+
+  else if (usuario == "Pablo") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
+
+  else if (usuario == "Javier") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
+
+  else if (usuario == "Maite") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
+
+  else if (usuario == "Karla") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
+
+  else if (usuario == "Genesis") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
+  }
   
-  if(usuario == "Cristian"){
-    window.location="home.html";
+  else if (usuario == "Yurent") {
+    const login = document.getElementById("login");
+    login.style.display = "none";
+
+    const page = document.getElementById("page");
+    page.style.display = "block";
+
+    document.getElementById("nombre").innerHTML = usuario;
+
+    document.getElementById("pareja").innerHTML = usuario
   }
-  else if(usuario == "Alejandra"){
-    window.location="home.html";
-  }
-  else if(usuario == "Lisbeth"){
-    window.location="home.html";
-  }
-  else if(usuario == "Alex"){
-    window.location="home.html";
-  }
-  else if(usuario == "Alexis"){
-    window.location="home.html";
-  }
-  else if(usuario == "Erika"){
-    window.location="home.html";
-  }
-  else if(usuario == "Erick"){
-    window.location="home.html";
-  }
-  else if(usuario == "Luis"){
-    window.location="home.html";
-  }
-  else if(usuario == "Anthony"){
-    window.location="home.html";
-  }
-  else if(usuario == "Aracely"){
-    window.location="home.html";
-  }
-  else if(usuario == "José Carlos"){
-    window.location="home.html";
-  }
-  else if(usuario == "Jhon"){
-    window.location="home.html";
-  }
-  else if(usuario == "Marco"){
-    window.location="home.html";
-  }
-  else if(usuario == "Pablo"){
-    window.location="home.html";
-  }
-  else if(usuario == "Javier"){
-    window.location="home.html";
-  }
-  else if(usuario == "Marlon"){
-    window.location="home.html";
-  }
-  else if(usuario == "Maite"){
-    window.location="home.html";
-  }
-  else if(usuario == "Karla"){
-    window.location="home.html";
-  }
-  else if(usuario == "Jorge"){
-    window.location="home.html";
-  }
-  else if(usuario == "Ulbio"){
-    window.location="home.html";
-  }
-  else if(usuario == "Auria"){
-    window.location="home.html";
-  }
-  else if(usuario == "Genesis"){
-    window.location="home.html";
-  }
-  else if(usuario == "Yurent"){
-    window.location="home.html";
-  }
-  else if(usuario == "Paulina"){
-    window.location="home.html";
-  }
-  else{
+
+  else {
     alert("Lo siento, usuario no encontrado");
   }
+
 }
