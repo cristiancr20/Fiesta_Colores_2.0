@@ -24,6 +24,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.log h1{
+  color: #fff;
+}
+
 input{
   border: none;
   padding: 10px;
@@ -176,45 +180,11 @@ input{
   list-style: none;
 }
 
-li:nth-child(1){
-  transform: translateY(1000px);
-
-      animation-name: footer-child;
-      animation-duration: 0.5s;
-      animation-delay: 1s;
-      animation-timing-function: ease-in-out;
-      animation-fill-mode: forwards;
+.reglas .pareja,
+.reglas .color{
+  text-align: center;
 }
 
-li:nth-child(2){
-  transform: translateY(1000px);
-
-      animation-name: footer-child;
-      animation-duration: 0.5s;
-      animation-delay: 1.5s;
-      animation-timing-function: ease-in-out;
-      animation-fill-mode: forwards;
-}
-
-li:nth-child(3){
-  transform: translateY(1000px);
-
-      animation-name: footer-child;
-      animation-duration: 0.5s;
-      animation-delay: 2s;
-      animation-timing-function: ease-in-out;
-      animation-fill-mode: forwards;
-}
-
-@keyframes footer-child {
-  0% {
-    transform: translateY(100px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
-}
 
 .imagen{
   width: 100%;

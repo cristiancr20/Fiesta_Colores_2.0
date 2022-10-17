@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <script src="script.js"></script>
 
   <title>Fiesta Colores 2.0</title>
@@ -18,18 +20,21 @@
     <div class="login" id="login">
       <div class="log">
 
-        <input type="text" name="usario" id="usuario" placeholder="Ingresa tu nombre">
-        <button onclick="login()">Entrar </button>
+        <h1>Ingresa tu nombre</h1>
+        <input type="text" name="usario" id="usuario" placeholder="Ingresa tu nombre" data-aos="fade-down">
+
+        <button onclick="login()" data-aos="fade-up">Entrar </button>
       </div>
     </div>
 
     <div class="page" id="page" style="display: none;">
-      <div class="title">
-        <h1>Ven y disfruta de la mejor fiesta de colores 🎉</h1>
+
+      <div class="title" >
+        <h1 >Ven y disfruta de la mejor fiesta de colores 🎉</h1>
       </div>
 
-      <div class="nombre">
-        <h2>Bienvenid@</h2>
+      <div class="nombre"  >
+        <h2 >Bienvenid@</h2>
         <p id="nombre"></p>
       </div>
 
@@ -50,21 +55,31 @@
         <p>Casa de Alexis 🥳🤙</p>
       </div>
 
-      <div class="reglas" >
-        <h1>Reglas 📝</h1>
+      <div class="reglas" > 
+        <h1>Instrucciones 📝</h1>
         <ul>
-          <li>Pareja: <p id="pareja"></p> </li>
-          <li>Color: <p id="color"></p></li>
-          <li>Base dinero por persona 5$</li>
-          <li>LLevar bebida o snacks dependiendo de como se divida la pareja.</li>
-          <li>LLevar por lo menos una prenda de ropa del color que tienes designado.</li>
+          <li class="pareja">Pareja: <p id="pareja"></p> </li>
+          <li class="color">Color: <p id="color"></p></li>
+          <li>La dinámica de esta fiesta de colores consiste en que cada pareja invitada debe llevar una bebida y snacks del color designado. </li>
+          <li>La base entre pareja es de 8 dólares. Esto lo hace más divertido y todos ponen la misma cantidad.</li>
+          <li>Todos los invitados deben abonar  $ 1 dólar para los preparativos de la fiesta de colores. 
+            Pueden acercarse a dejar su cuota en la casa de 
+            Luis Figueroa (Eugenio espejo y 18 de noviembre) </li>
+            <li>O para una mejor  comodidad adjuntamos  la siguiente cuenta bancaria: <br>
+              - Auria Yadira Vivanco Palacios <br>
+              - Banco de Loja <br>
+              - Cuenta de ahorros: 2902716719 <br>
+              - Cédula: 1105249807</li>
+          <li>Su presencia es muy importante, te esperamos.</li>
         </ul>
       </div>
   </div>
     
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    
+    AOS.init();
   </script>
+
 </body>
 
 </html>
