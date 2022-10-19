@@ -12,7 +12,7 @@ function login() {
 
     document.getElementById("nombre").innerHTML = usuario;
 
-    document.getElementById("color").innerHTML = "Blanco";
+    document.getElementById("color").innerHTML = "";
 
     document.getElementById("pareja").innerHTML = "Maite y Javier"
   }
@@ -40,7 +40,7 @@ function login() {
 
     document.getElementById("nombre").innerHTML = usuario;
 
-    document.getElementById("color").innerHTML = "Azul";
+    document.getElementById("color").innerHTML = "Verde";
 
     document.getElementById("pareja").innerHTML = "Auria y Ulbio";
   }
@@ -54,7 +54,7 @@ function login() {
 
     document.getElementById("nombre").innerHTML = usuario;
 
-    document.getElementById("color").innerHTML = "Celeste";
+    document.getElementById("color").innerHTML = "Azul";
 
     document.getElementById("pareja").innerHTML = "Alejandra y Marlon";
   }
@@ -68,7 +68,7 @@ function login() {
 
     document.getElementById("nombre").innerHTML = usuario;
 
-    document.getElementById("color").innerHTML = "Rojo";
+    document.getElementById("color").innerHTML = "Palo Rosa";
 
     document.getElementById("pareja").innerHTML = "Liseth y Alex"
   }
@@ -82,7 +82,7 @@ function login() {
 
     document.getElementById("nombre").innerHTML = usuario;
 
-    document.getElementById("color").innerHTML = "Vino";
+    document.getElementById("color").innerHTML = "Rosado";
 
     document.getElementById("pareja").innerHTML = "Leonela y Fernando"
   }
@@ -96,7 +96,7 @@ function login() {
 
     document.getElementById("nombre").innerHTML = usuario;
 
-    document.getElementById("color").innerHTML = "Verde";
+    document.getElementById("color").innerHTML = "Blanco";
 
     document.getElementById("pareja").innerHTML = "Paulina y Jorge"
   }
@@ -110,7 +110,7 @@ function login() {
 
     document.getElementById("nombre").innerHTML = usuario;
 
-    document.getElementById("color").innerHTML = "Amarillo";
+    document.getElementById("color").innerHTML = "Plomo";
 
     document.getElementById("pareja").innerHTML = "Génesis y Eduardo"
   }
@@ -124,7 +124,7 @@ function login() {
 
     document.getElementById("nombre").innerHTML = usuario;
 
-    document.getElementById("color").innerHTML = "Rosado";
+    document.getElementById("color").innerHTML = "Rojo";
 
     document.getElementById("pareja").innerHTML = "Erika y Alexis"
   }
@@ -138,7 +138,7 @@ function login() {
 
     document.getElementById("nombre").innerHTML = usuario;
 
-    document.getElementById("color").innerHTML = "Morado";
+    document.getElementById("color").innerHTML = "Negro";
 
     document.getElementById("pareja").innerHTML = "Paola y Jonathan"
   }
